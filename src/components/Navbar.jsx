@@ -1,8 +1,10 @@
 import React from 'react'
-
+import logo from "../images/logo.svg"
 function Navbar() {
   return (
-    <div>Navbar</div>
+    <nav>
+        <img src={logo} alt="shortly-logo"/>
+    </nav>
   )
 }
 

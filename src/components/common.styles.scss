@@ -10,6 +10,23 @@ $very-dark-violet: hsl(260, 8%, 14%);
     padding-right: 10%;
 }
 
+#hero{
+    padding-left: 10%;
+    img{
+      width: 100%;
+      height: auto;
+    }
+    h1{
+        font-size: 10vw;
+        color: $very-dark-blue;
+    }
+    p{
+        font-size: 2em;
+        color: $grayish-violet;
+
+    }
+}
+
 #pre-footer{
     background-color: $dark-violet;
     background-repeat: no-repeat;
@@ -44,7 +61,7 @@ footer{
     #socials{
         display: flex;
         justify-content:center;
-        gap: 10px;
+        gap: 20px;
         .icon{
             fill: white;
             &:hover {
@@ -67,7 +84,14 @@ footer{
     
 }
 //laptops
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {  
+    #hero{
+        display: flex;
+        flex-direction: row-reverse;
+        h1 {
+            font-size: 4vw;
+        }
+    }
     footer {
         display: flex;
         justify-content: space-between;
