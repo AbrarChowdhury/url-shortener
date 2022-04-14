@@ -1,17 +1,17 @@
 # Url Shortener
 
 ## Features
-- [] View the optimal layout for the site depending on their device's screen size
+-[] View the optimal layout for the site depending on their device's screen size
 
-- [] Shorten any valid URL
+-[] Shorten any valid URL
 
-- [] See a list of their shortened links, even after refreshing the browser
+-[] See a list of their shortened links, even after refreshing the browser
 
-- [] Copy the shortened link to their clipboard in a single click
+-[] Copy the shortened link to their clipboard in a single click
 
-- [] Receive an error message when the form is submitted if: The input field is empty
+-[] Receive an error message when the form is submitted if: The input field is empty
 
-- [] Fully responsive
+-[] Fully responsive
 
 Open [Live Demo](<the link>) to view it in action.
 
