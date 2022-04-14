@@ -1,0 +1,88 @@
+$cyan:hsl(180, 66%, 49%);
+$dark-violet:hsl(257, 27%, 26%);
+$red:hsl(0, 87%, 67%);
+$gray: hsl(0, 0%, 75%);
+$grayish-violet: hsl(257, 7%, 63%);
+$very-dark-blue: hsl(255, 11%, 22%);
+$very-dark-violet: hsl(260, 8%, 14%);
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#pre-footer{
+    background-color: $dark-violet;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 50px 10%;
+}
+footer{
+    text-align: center;
+    background: $very-dark-violet;
+    padding: 50px 0;
+    p{
+        color: white;
+        font-weight: bold;
+    }
+    a{
+       color: $gray;
+       display: block;
+       text-decoration: none;
+       margin: 12px 0;
+       &:hover{
+           color:$cyan;
+       }
+    }
+    .partisions{
+        margin-top: 40px ;
+        p{
+            margin-top: 35px
+        };
+    }
+    #socials{
+        display: flex;
+        justify-content:center;
+        gap: 10px;
+        .icon{
+            fill: white;
+            &:hover {
+                fill: $cyan;
+            }
+        }
+    }
+
+}
+//Tablet
+@media screen and (min-width: 480px) {
+    footer{
+        #link-container {
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            gap: 40px;
+        }
+    }
+    
+}
+//laptops
+@media screen and (min-width: 768px) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+            .partisions {
+                p { margin-top: 12px;}
+            }
+    }
+}
+//Desktops
+@media screen and (min-width: 1024px) {
+    footer {
+
+    }
+}
+//TV
+@media screen and (min-width: 1200px) {
+
+}
