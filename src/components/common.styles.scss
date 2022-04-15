@@ -6,10 +6,15 @@ $grayish-violet: hsl(257, 7%, 63%);
 $very-dark-blue: hsl(255, 11%, 22%);
 $very-dark-violet: hsl(260, 8%, 14%);
 .container{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
+.square-btn{
 
+}
+.round-btn{
+
+}
 #hero{
     padding-left: 10%;
     img{
@@ -26,7 +31,13 @@ $very-dark-violet: hsl(260, 8%, 14%);
 
     }
 }
+#body{
+    background: $grayish-violet;
 
+    .cards-container{
+        
+    }
+}
 #pre-footer{
     background-color: $dark-violet;
     background-repeat: no-repeat;

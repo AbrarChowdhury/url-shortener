@@ -1,0 +1,17 @@
+$very-dark-violet: hsl(260, 8%, 14%);
+.card {
+    padding: 0 20px;
+    transform: translateY(-20px);
+
+    .image-container {
+        transform: translateY(-20px);
+        border-radius: 50%;
+        background: $very-dark-violet;
+        width: max-content;
+
+        img {
+            width: 50px;
+            margin: 20px;
+        }
+    }
+}
