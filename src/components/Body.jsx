@@ -6,7 +6,9 @@ import fCIcon from "../images/icon-fully-customizable.svg"
 import { Grid } from '@mui/material'
 function Body() {
   return (
-    <div id="body" className='container'>body
+    <div id="body" className='container'>
+    <h1>Advanced Statistics</h1>
+    <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
     <div id="cards-container">
     <Grid container spacing={4}>
       <Grid item xs={12} lg={4}>

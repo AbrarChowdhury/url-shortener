@@ -32,11 +32,23 @@ $very-dark-violet: hsl(260, 8%, 14%);
     }
 }
 #body{
-    background: $grayish-violet;
-
-    .cards-container{
-        
+    background: #EFF1F7;
+    text-align: center;
+    h1{
+        color: $very-dark-blue;
     }
+    p{
+        color: $grayish-violet;
+        font-size: 1.5em;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    #cards-container{
+        text-align: left;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
 }
 #pre-footer{
     background-color: $dark-violet;
