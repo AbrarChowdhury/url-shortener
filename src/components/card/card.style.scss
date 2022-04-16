@@ -1,20 +1,23 @@
 $very-dark-violet: hsl(260, 8%, 14%);
-.card {
-    padding: 0 20px;
-    transform: translateY(-20px);
+.cardWrap{
+    height: 100%;
 
-    .image-container {
+    .card {
+        padding: 0 20px;
         transform: translateY(-20px);
-        border-radius: 50%;
-        background: $very-dark-violet;
-        width: max-content;
-
-        img {
-            width: 50px;
-            margin: 20px;
+        z-index: 10;
+        .image-container {
+            transform: translateY(-20px);
+            border-radius: 50%;
+            background: $very-dark-violet;
+            width: max-content;
+            img {
+                width: 50px;
+                margin: 20px;
+            }
         }
-    }
-    p{
-        font-size: 1.2em!important;
-    }
+        p{
+            font-size: 1.2em!important;
+        }
+}
 }
